@@ -1,0 +1,27 @@
+{
+  "run_list":[
+    "recipe[yum]",
+    "recipe[yum-epel]",
+    "recipe[hostname]",
+    "recipe[zabbix-agent]",
+    "recipe[ruby_build]",
+    "recipe[rbenv::user]"
+    ],
+  "rbenv": {
+    "user_installs":
+    [
+        {
+            "user": "vagrant",
+            "rubies": ["2.1.3"],
+            "global": "2.1.3",
+            "gems":  {
+                "2.1.3":
+                [
+                    { "name": "bundler" },
+                    { "name": "rails","version": "~>4.1.0"}
+                ]
+            }
+        }
+    ]
+  }
+}

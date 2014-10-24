@@ -1,0 +1,8 @@
+Berksfile.lock
+berks-cookbooks/*
+data_bags/*
+!data_bags/
+nodes/*
+!nodes/localvm.json
+
+
