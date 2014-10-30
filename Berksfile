@@ -10,5 +10,5 @@ cookbook 'newrelic', git: "https://github.com/escapestudios-cookbooks/newrelic.g
 cookbook "chef-recipes-hostname", git: "https://github.com/okisanjp/chef-recipes-hostname.git"
 cookbook "chef-recipes-dotfiles", git: "https://github.com/okisanjp/chef-recipes-dotfiles.git"
 cookbook "chef-recipes-lamp", git: "https://github.com/okisanjp/chef-recipes-lamp.git"
-cookbook "zabbix-agent", git: "https://github.com/okisanjp/chef-recipes-zabbix-agent.git"
+cookbook "chef-recipes-zabbix-agent", git: "https://github.com/okisanjp/chef-recipes-zabbix-agent.git"
 cookbook "rbenv",  git: 'https://github.com/fnichol/chef-rbenv'
